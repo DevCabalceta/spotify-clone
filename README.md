@@ -45,7 +45,7 @@ El objetivo del proyecto fue:
 ### 1️⃣ Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repo.git
+git clone https://github.com/DevCabalceta/spotify-clone.git
 ```
 
 ### 2️⃣ Instalar dependencias
