@@ -3,7 +3,7 @@ import { useCurrentMusic } from "@/hooks/UseCurrentMusic";
 import { usePlayerStore } from "@/store/playerStore";
 
 export function PlayerControlButtonBar() {
-  const {currentMusic, isPlaying, setIsPlaying, setCurrentMusic} = usePlayerStore(state => state);
+  const { currentMusic, isPlaying, setIsPlaying, setCurrentMusic } = usePlayerStore(state => state);
   const { getNextSong, getPreviousSong } = useCurrentMusic(currentMusic);
 
 
@@ -30,13 +30,13 @@ export function PlayerControlButtonBar() {
   return (
     <div className="flex justify-center flex-row flex-nowrap items-center gap-4">
       <button className="hover:scale-110" onClick={onPrevSong} title="Previous song">
-        <Prev/>
+        <Prev />
       </button>
       <button className="bg-white text-black rounded-full p-2 hover:scale-110" onClick={onPlayPause}>
-        {isPlaying ? <Pause/> : <Play/>}
+        {isPlaying ? <Pause /> : <Play />}
       </button>
       <button className="hover:scale-110" onClick={onNextSong} title="Next song">
-        <Next/>
+        <Next />
       </button>
     </div>
   );

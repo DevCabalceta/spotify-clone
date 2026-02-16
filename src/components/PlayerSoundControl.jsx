@@ -1,5 +1,5 @@
-import {useEffect, useState} from "react";
-import {Slider} from "@/components/Slider";
+import { useEffect, useState } from "react";
+import { Slider } from "@/components/Slider";
 
 export const PlayerSoundControl = ({ audio }) => {
   const [currentTime, setCurrentTime] = useState(0)
