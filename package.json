@@ -23,8 +23,5 @@
     "start": "astro dev"
   },
   "type": "module",
-  "version": "0.0.1",
-  "devDependencies": {
-    "@astrojs/netlify": "^5.5.4"
-  }
+  "version": "0.0.1"
 }
